@@ -171,32 +171,14 @@ const featureIcons = {
 
 function BrandMark({ className = '' }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 1024 1024" aria-hidden="true" focusable="false">
-      <defs>
-        <linearGradient id="bm-left" x1="0" y1="0" x2="0.9" y2="1">
-          <stop offset="0" stopColor="#34D6F7" />
-          <stop offset="1" stopColor="#1F86F2" />
-        </linearGradient>
-        <linearGradient id="bm-right" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#3E9BFF" />
-          <stop offset="1" stopColor="#1747D8" />
-        </linearGradient>
-      </defs>
-      <path
-        d="M276 800 V436 L398 312 L512 426"
-        fill="none"
-        stroke="url(#bm-left)"
-        strokeWidth="156"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M512 426 L626 312 L748 436 V800"
-        fill="none"
-        stroke="url(#bm-right)"
-        strokeWidth="156"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <img
+      className={className}
+      src="/brand/matapo-mark.webp"
+      alt=""
+      width="512"
+      height="512"
+      aria-hidden="true"
+    />
   )
 }
 
@@ -251,7 +233,7 @@ function Header() {
     <header className="site-header">
       <div className="wrap header-row">
         <a className="brand" href="#top" aria-label="Matapo, ir al inicio">
-          <img src="/brand/matapo-icon.svg" alt="" width="36" height="36" />
+          <img src="/brand/matapo-icon.webp" alt="" width="36" height="36" />
           <span>
             Mata<b>po</b>
           </span>
@@ -635,7 +617,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="wrap footer-row">
         <div className="footer-brand">
-          <img src="/brand/matapo-icon.svg" alt="" width="40" height="40" />
+          <img src="/brand/matapo-icon.webp" alt="" width="40" height="40" />
           <div>
             <p className="footer-made">
               Hecha por{' '}
