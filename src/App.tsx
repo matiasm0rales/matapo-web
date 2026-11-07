@@ -235,7 +235,7 @@ function Header() {
         <a className="brand" href="#top" aria-label="Matapo, ir al inicio">
           <img src="/brand/matapo-icon.webp" alt="" width="36" height="36" />
           <span>
-            Mata<b>po</b>
+            Ma<b>tapo</b>
           </span>
         </a>
         <nav aria-label="Principal">
